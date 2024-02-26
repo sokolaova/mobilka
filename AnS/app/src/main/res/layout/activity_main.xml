@@ -1,0 +1,70 @@
+   <?xml version="1.0" encoding="utf-8"?>
+   <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#C4FF699C"
+       android:backgroundTint="#D37F9C"
+       tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="177dp"
+        android:layout_height="61dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+           android:id="@+id/textView"
+           android:layout_width="244dp"
+           android:layout_height="85dp"
+           android:background="#F0C3DC"
+           android:backgroundTint="#00E9A2C7"
+           android:fontFamily="@font/alegreya_sc"
+           android:text="give me money please..."
+           android:textAlignment="center"
+           android:textAllCaps="false"
+           android:textColor="#F44336"
+           android:textColorHighlight="#AEF436C5"
+           android:textCursorDrawable="@android:drawable/ic_dialog_email"
+           android:textSize="34sp"
+           android:textStyle="italic"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.315" />
+
+       <ImageButton
+           android:id="@+id/imageButton"
+           android:text="ImageButton"
+           android:layout_width="231dp"
+           android:layout_height="196dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/textView"
+           app:layout_constraintVertical_bias="0.07999998"
+           app:srcCompat="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="0.191" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
